@@ -1,0 +1,80 @@
+* {
+	margin: 0;
+	width: 100%;
+}
+
+/* Carte et image */
+.title {
+	display: flex;
+	justify-content: center;
+	text-align: center;
+	margin: 5em auto;
+}
+
+.card {
+	background-color: #1d35ce;
+	width: 300px;
+	height: 450px;
+	border-radius: 20px;
+	border: rebeccapurple solid 5px;
+	margin: 5em auto;
+	justify-items: center;
+}
+
+.card_img {
+	text-align: center;
+	padding: 3em 0;
+}
+
+img {
+	width: 100px;
+}
+
+/* Titre et sous titre */
+
+h2 {
+	text-align: center;
+	color: antiquewhite;
+}
+
+p {
+	width: 75%;
+	margin: 0 auto;
+	text-align: center;
+	color: antiquewhite;
+}
+
+
+/* Taille et disposition des icons */
+
+.social_icons {
+	width: 80%;
+	margin: 3em auto;
+	display: flex;
+	justify-content: space-between;
+
+}
+
+.social_icons img {
+	width: 36px;
+}
+
+
+/* configurations des icons au depart */
+
+.social_icons a {
+	cursor:pointer;
+	background-image: linear-gradient(beige, beige);
+	background-size: 0%, 0.1rem;
+	background-position-y: 100%;
+	background-position-x: 50%;
+	background-repeat: no-repeat;
+	transition: margin-top ease-in-out 0.5s, backgroud-size ease-in-out 0.5s;
+
+}
+
+.social_icons a:hover, .social_icons a:focus, .social_icons a:active {
+	margin-top: -1em;
+	background-size: 100% 0.3em;
+
+}
